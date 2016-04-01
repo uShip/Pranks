@@ -20,11 +20,6 @@ https://github.com/rguerra712/Pranks
 
 #>
 
-# 
-# 
-# NOTES: 
-# 
-
 param (
     [string]$site = $(throw "-site is required."),
     [string]$redirectto = $(throw "-redirectto is required.")
